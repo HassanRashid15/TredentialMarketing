@@ -1,0 +1,3 @@
+.main-content-area-custom{
+    min-height: calc(100vh - 195px - 72px);
+}
