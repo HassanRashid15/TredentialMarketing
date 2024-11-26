@@ -53,6 +53,13 @@ const Header = () => {
           >
             <Link to="/casestudies">Case Studies</Link>
           </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="text-white hover:text-red-300 transition-colors"
+          >
+            <Link to="/portfolio">Portfolio</Link>
+          </motion.div>
         </nav>
 
         {/* Desktop "Get Started" Button */}
@@ -105,6 +112,13 @@ const Header = () => {
             onClick={() => setMenuOpen(false)}
           >
             Case Studies
+          </Link>
+          <Link
+            to="/portfolio"
+            className="text-white text-lg hover:text-red-300"
+            onClick={() => setMenuOpen(false)}
+          >
+          Portfolio
           </Link>
           <Button className="bg-white text-red-600 hover:bg-red-100">
             Get Started
