@@ -1,14 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
-
-function portfolio() {
-  return (
-    <div>pjejwkqortfolio2wqweq</div>
-  )
-}
-
-export default portfolio
-=======
 import PortfolioGallery from "../components/PortfolioGallery"
 import PortfolioServices from "../components/PortfolioServices"
 import PortfolioTestimonials from "../components/PortfolioTestimonials"
@@ -40,4 +30,4 @@ function Portfolio() {
 }
 
 export default Portfolio
->>>>>>> Alizah
+
