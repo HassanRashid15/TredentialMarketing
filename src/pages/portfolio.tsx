@@ -15,7 +15,7 @@ function Portfolio() {
         <div className="flex items-center justify-start h-full bg-black bg-opacity-50">
           <div className="text-start text-white max-w-xl px-4">
         
-            <h1 className="text-5xl font-bold mb-4">Portfolios</h1>
+            <h1 className="text-5xl font-bold mb-4">Portfolio</h1>
           </div>
         </div>
       </div>
