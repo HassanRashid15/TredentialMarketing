@@ -5,7 +5,7 @@ import PortfolioTestimonials from "../components/PortfolioTestimonials"
 import Newsletter from '../components/Newsletter'
 import PricingTable from '../components/PricingTable'
 import CaseStudiesLayout from '../components/CaseStudiesLayout'
-function portfolio() {
+function Portfolio() {
   return (
     <div className="bg-gray-100">
          <div
@@ -29,4 +29,4 @@ function portfolio() {
   )
 }
 
-export default portfolio
+export default Portfolio

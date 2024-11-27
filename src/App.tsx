@@ -6,7 +6,7 @@ import Team from './pages/team';  // Import the Team page
 import Header from './components/Header';  
 import Footer from './components/Footer';  
 import CaseStudies from './pages/CaseStudies';
-
+import Portfolio from './pages/portfolio';
 function App() {
   return (
     <Router>
@@ -16,8 +16,8 @@ function App() {
         <Route path="/" element={<HomePage />} /> 
         <Route path="/about" element={<AboutUs />} />
         <Route path="/team" element={<Team />} />  
-        <Route path="/casestudies" element={<CaseStudies />} />  
-        {/* <Route path="/portfolio" element={</>} />   */}
+        <Route path="/casestudies" element={<CaseStudies />} /> 
+        <Route path="/portfolio" element={<Portfolio />} /> 
       </Routes>
       </div>
       <Footer />
