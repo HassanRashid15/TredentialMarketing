@@ -30,7 +30,6 @@ const Testimonials = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
             >
-            
               <motion.div 
                 className="flex justify-center mb-6"
                 whileHover={{ scale: 1.1 }}
@@ -43,7 +42,6 @@ const Testimonials = () => {
                 />
               </motion.div>
 
-          
               <motion.h4
                 className="text-2xl font-semibold mb-2 text-center"
                 initial={{ opacity: 0 }}
