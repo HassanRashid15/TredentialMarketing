@@ -23,7 +23,7 @@ const caseStudiesData = [
 
 function CaseStudiesLayout() {
   return (
-    <div className="max-w-6xl mx-auto p-6">
+    <div className="max-w-6xl mx-auto p-9 px-0">
       <h2 className="text-3xl font-bold text-center mb-8">Our Project</h2>
       <div className="grid md:grid-cols-3 gap-8">
         {caseStudiesData.map((caseStudy) => (

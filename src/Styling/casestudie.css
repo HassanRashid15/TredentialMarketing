@@ -1,3 +1,55 @@
 .main-content-area-custom{
     min-height: calc(100vh - 195px - 72px);
 }
+
+
+.user-case-studies-custom{
+    width: 100%;
+    max-width: 95%;
+    margin: auto;
+}
+
+.services-content-custom {
+    width: 100%;
+    max-width: 90%;
+    margin: 100px auto;
+}
+
+.services-content-custom h2 {
+z-index: 2 !important;
+    fill: red;
+    -webkit-text-fill-color: red;
+    -webkit-background-clip: text;
+    background-color: initial;
+    color: #f0f1f2;
+    font-size: 100px;
+    font-weight: 700;
+    left: -52.5%;
+    line-height: 1;
+    opacity: 30%;
+    transform: rotate(90deg);
+    min-width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 270px;
+}
+.services-content-custom span{
+    color:#8d1e1e ;
+}
+.services-content-custom h1{
+    font-size: 40px;
+    line-height: 43px;
+}
+.services-content-custom p{
+        font-weight: 400;
+    font-size: 16px;
+    color: black;
+    margin: 0;
+}
+
+
+.services-success-story{
+        width: 100%;
+    margin: auto;
+    max-width: 89.5%;
+}
